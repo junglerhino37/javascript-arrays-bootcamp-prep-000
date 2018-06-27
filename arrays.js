@@ -1,5 +1,9 @@
 var chocolateBars=['snickers','hundred grand', 'kitkat','skittles'];
+<<<<<<< HEAD
 q=destructivelyAddElementToEndOfArray(chocolateBars,1)
+=======
+q=removeElementFromEndOfArray(chocolateBars)
+>>>>>>> b395f0ca0f35a86448b5458fc43be8eea336c355
 
 
 
@@ -16,14 +20,17 @@ function destructivelyAddElementToBeginningOfArray(x,y){
 }
 
 function removeElementFromBeginningOfArray(x){
-  z=x.slice(1)
+  z=x.slice(0)
    console.log(z)
    return z
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(x){
 x.shift()
+<<<<<<< HEAD
 return x
+=======
+>>>>>>> b395f0ca0f35a86448b5458fc43be8eea336c355
 }
 
 
@@ -39,6 +46,7 @@ function destructivelyRemoveElementFromEndOfArray(x){
    return x
 }
 
+<<<<<<< HEAD
 function accessElementInArray(x,y){
 z=x[y]
    return z
@@ -55,3 +63,11 @@ function destructivelyAddElementToEndOfArray (x,y){
  x.push(y)
  return x 
 }
+=======
+function destructivelyRemoveElementFromEndOfArray(x){
+  x.pop()
+   console.log(x)
+   return x
+}
+
+>>>>>>> b395f0ca0f35a86448b5458fc43be8eea336c355
